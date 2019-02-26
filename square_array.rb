@@ -1,5 +1,6 @@
 def square_array(array)
 
-array.each print |x| x**2
-
+array.each do |x| x**2
+puts array
+end
 end
